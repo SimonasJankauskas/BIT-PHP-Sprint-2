@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  margin: auto;
+}
+h2 {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+#top_btns {
+  text-align: center;
+}
+#main_tbl {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 15px;
+  }
+  
+  #main_tbl td, #main_tbl th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #main_tbl tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #main_tbl tr:hover {background-color: rgb(171, 226, 160);}
+  
+  #main_tbl th {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: rgb(35,119,74);
+    background: linear-gradient(90deg, rgba(35,119,74,1) 0%, rgba(32,130,32,1) 100%);
+    color: white;
+  }
+  header {
+    height: 50px;
+    background: #4CAF50;
+  }
+  #top {      
+    background: #a3eca5;
+    padding: 15px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+  #top:hover {
+    background: #29b82d;
+  }
+  #del_btn {
+    background: #d32121;
+    padding: 15px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    color: #ffff;
+  }
+  #del_btn:hover {
+    background: #c90000;
+  }
+  #edit_btn {
+    background: #1b239e;
+    padding: 15px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    color: #ffff;
+  }
+  #edit_btn:hover {
+    background: #000a8d;
+  }
+  .create_form {
+    text-align: center;    
+  }
+  #back_home_btn {
+    background: #a3eca5;
+    padding: 15px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  }
+  .create_form p {
+    margin: 0;
+    margin-top: 5px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  }
+  #wrapper {
+    text-align: center;
+  }
+  #show_empl_btn {
+    background: #1b239e;
+    padding: 15px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #ffff;
+    cursor: pointer;
+  }
+  #show_empl_btn:hover {
+    background: #2a37e7;
+  }
+  #update_tbl {
+    margin: auto;
+  }
+  #update_tbl td, input {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  }
+  #update_btn {
+    background-color: #4CAF50;
+    padding: 10px;
+  }
+  #update_input {
+    padding: 5px;
+  }
